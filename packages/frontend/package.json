@@ -17,5 +17,19 @@
   },
   "bugs": {
     "url": "https://github.com/prKassad/wood-editor/issues"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.2.0",
+    "autoprefixer": "^9.4.3",
+    "babel-loader": "^8.0.4",
+    "babel-plugin-syntax-dynamic-import": "^6.18.0",
+    "css-loader": "^2.0.1",
+    "postcss-loader": "^3.0.0",
+    "precss": "^3.1.2",
+    "style-loader": "^0.23.1",
+    "uglifyjs-webpack-plugin": "^2.0.1",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
   }
 }
