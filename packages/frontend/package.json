@@ -1,0 +1,21 @@
+{
+  "name": "frontend",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Vitaliy Abramov <i@kassad.ru>",
+  "homepage": "https://github.com/prKassad/wood-editor/tree/master/packages/frontend#readme",
+  "main": "src/index.js",
+  "directories": {
+    "lib": "src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prKassad/wood-editor.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/prKassad/wood-editor/issues"
+  }
+}
