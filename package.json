@@ -14,5 +14,8 @@
   "bugs": {
     "url": "https://github.com/prKassad/wood-editor/issues"
   },
-  "homepage": "https://github.com/prKassad/wood-editor#readme"
+  "homepage": "https://github.com/prKassad/wood-editor#readme",
+  "devDependencies": {
+    "lerna": "^3.10.5"
+  }
 }
