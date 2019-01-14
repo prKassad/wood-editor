@@ -1,0 +1,29 @@
+{
+  "name": "editor",
+  "version": "0.0.0",
+  "description": "> TODO: description",
+  "author": "Vitaliy Abramov <i@kassad.ru>",
+  "homepage": "https://github.com/prKassad/wood-editor/tree/master/packages/editor-core#readme",
+  "license": "ISC",
+  "main": "lib/editor-core.js",
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/prKassad/wood-editor.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: run tests from root\" && exit 1"
+  },
+  "bugs": {
+    "url": "https://github.com/prKassad/wood-editor/issues"
+  },
+  "dependencies": {
+    "three": "^0.100.0"
+  }
+}
