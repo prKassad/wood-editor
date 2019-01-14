@@ -1,6 +1,6 @@
 const webpack = require('webpack');
 const path = require('path');
-
+const HtmlWebpackPlugin = require('html-webpack-plugin');
 /*
  * We've enabled Postcss, autoprefixer and precss for you. This allows your app
  * to lint  CSS, support variables and mixins, transpile future CSS syntax,
@@ -92,6 +92,9 @@ module.exports = {
 			}
 		]
 	},
+    plugins: [
+        new HtmlWebpackPlugin()
+    ],
 
 	output: {
 		chunkFilename: '[name].[chunkhash].js',
@@ -114,5 +117,14 @@ module.exports = {
 			minSize: 30000,
 			name: true
 		}
-	}
+	},
+
+	watch: true,
+
+    devServer: {
+        contentBase: path.join(__dirname, 'dist'),
+        compress: true,
+        port: 9000,
+		// hot: true
+    }
 };
