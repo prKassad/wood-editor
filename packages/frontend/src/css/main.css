@@ -1,0 +1,153 @@
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    overflow: hidden;
+}
+
+hr {
+    border: 0;
+    border-top: 1px solid #ccc;
+}
+
+button {
+    position: relative;
+}
+
+.Panel {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -o-user-select: none;
+    user-select: none;
+}
+
+button {
+    color: #555;
+    background-color: #ddd;
+    border: 0px;
+    padding: 5px 8px;
+    text-transform: uppercase;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: #fff;
+}
+
+button.selected {
+    background-color: #fff;
+}
+
+#viewport {
+    position: absolute;
+    top: 32px;
+    left: 0;
+    right: 300px;
+    bottom: 0;
+}
+
+#viewport #info {
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.25);
+    pointer-events: none;
+}
+
+#menubar {
+    position: absolute;
+    width: 100%;
+    height: 32px;
+    background: #eee;
+    padding: 0;
+    margin: 0;
+    right: 0;
+    top: 0;
+}
+
+#menubar .menu {
+    float: left;
+    cursor: pointer;
+    padding-right: 8px;
+}
+
+#menubar .menu.right {
+    float: right;
+    cursor: auto;
+    padding-right: 0;
+    text-align: right;
+}
+
+#menubar .menu .title {
+    display: inline-block;
+    color: #888;
+    margin: 0;
+    padding: 8px;
+    line-height: 16px;
+}
+
+#menubar .menu .options {
+    position: fixed;
+    display: none;
+    padding: 5px 0;
+    background: #eee;
+    width: 150px;
+    max-height: calc(100% - 80px);
+    overflow: auto;
+}
+
+#menubar .menu:hover .options {
+    display: block;
+}
+
+#menubar .menu .options hr {
+    border-color: #ddd;
+}
+
+#menubar .menu .options .option {
+    color: #666;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin: 0 !important;
+}
+
+#menubar .menu .options .option:hover {
+    color: #fff;
+    background-color: #08f;
+}
+
+#menubar .menu .options .option:active {
+    color: #666;
+    background: transparent;
+}
+
+#menubar .menu .options .inactive {
+    color: #adaeae;
+    background-color: transparent;
+    padding: 5px 10px;
+    margin: 0 !important;
+}
+
+#toolbar {
+    position: absolute;
+    left: calc(50% - 290px);
+    width: 315px;
+    bottom: 16px;
+    height: 32px;
+    background: #eee;
+    color: #333;
+}
+
+#toolbar * {
+    vertical-align: middle;
+}
+
+#toolbar .Panel {
+    padding: 4px;
+    color: #888;
+}
+
+#toolbar button {
+    margin-right: 6px;
+    line-height: 14px;
+    height: 24px;
+}
